@@ -1,0 +1,14 @@
+p{/* para las etiquetas */
+    color: red;
+}
+.red{ /* para los tipo class */
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+#boton-pago{/* para los tipo id */
+    background-color: yellow;
+}
+td{/* etiqueta td */
+    border: solid 1px;
+}
