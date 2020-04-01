@@ -133,6 +133,21 @@ img{
         display: none;
     }
 }
+@media(min-width:900px){
+    th{
+        display: table-cell;
+    }
+    td{
+        width: auto;
+        display: table-cell;
+    }
+    td:nth-of-type(1){
+        font-size: 1em;
+    }
+    .content{
+        padding: 1.8em;
+    }
+}
 @media (min-height:550px){
     .content{
         height: 500px;
