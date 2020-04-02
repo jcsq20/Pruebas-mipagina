@@ -18,18 +18,20 @@ celdas.forEach(function(td){
 let links = document.querySelectorAll(".close");
 
 links.forEach(function(link){
+    //agregar un evento clicl a cada uno de ellos
     link.addEventListener("click",function(ev){
         ev.preventDefault();
         let content = document.querySelector(".content");
-
+        //quitar las clases de animacion
         content.classList.remove("bounceInUp");
         content.classList.remove("animated");
-
+        //agregar las clases pra animar su salidad
         content.classList.add("bounceOutUp");
         content.classList.add("animated");
         
         setTimeout(function(){ /* retardar la aparicion */
-             location.href = "/";
+             /* location.href = "/"; */
+             location.href = "/boletines";
         },600);
        
 
