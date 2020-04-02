@@ -31,7 +31,7 @@ links.forEach(function(link){
         
         setTimeout(function(){ /* retardar la aparicion */
              /* location.href = "/"; */
-             location.href = "/boletines";
+             location.href = "/Mipagina/boletines/";
         },600);
        
 
